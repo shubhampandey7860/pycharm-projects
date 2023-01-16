@@ -9,7 +9,7 @@ sli = Scale(App, from_=0, to=100,variable=slid_value,orient=HORIZONTAL)
 sli.pack()
 
 
-#
+# function 
 def show_slider():
     msg = Label(App, text=slid_value.get(),font=('arial',10))
     msg.pack()
