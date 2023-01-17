@@ -24,4 +24,4 @@ def show():
 B = Button(App, text='show', command=show)
 B.pack()
 
-App.mainlo
+App.mainloop()
